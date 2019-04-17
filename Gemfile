@@ -22,6 +22,9 @@ gem 'puma', '~> 3.11'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'graphql', '~> 1.7.13'
+gem 'graphiql-rails', '~> 1.4.10', group: :development
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
